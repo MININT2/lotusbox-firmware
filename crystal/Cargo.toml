@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+fastbloom = "0.8.0"
+tlsh-fixed = "0.1.1"
+xxhash-rust = { version = "0.8.15", features = ["std", "xxh64", "xxh3"] }
